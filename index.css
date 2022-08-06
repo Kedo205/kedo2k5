@@ -1,0 +1,149 @@
+							/* body */
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+.tieude {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #1b1b32;
+	font-family: 'Sriracha', cursive;
+	color: #FDF5E6;
+	font-size: 53px;
+	letter-spacing: 2px; 
+}
+
+.container.two {
+	width: 100%;
+  	height: 100vh;
+  	margin: 0;
+  	background-color: white;
+	color: #00008B;
+	font-size: 9px;
+}
+
+ol {
+	font-weight: bold;
+	font-size: 25px;
+	margin-left: 6%; 
+}
+
+.image {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 59%;
+  	padding-top: 30px;
+  	padding-bottom: 30px;
+}
+
+#takimitsuha img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 59%;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.danhsach {
+	font-family: 'Baloo 2', cursive;
+	font-size: 36px;
+	color: blue;
+}
+
+.cottruyen {
+	text-align: center;
+	color: red;
+	font-size: 34px;
+	font-family: 'Kanit', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.canle {
+	text-align: justify;
+	margin-right: 6%;
+	font-family: 'Prompt', sans-serif;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+h2, h3, h4 {
+	text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+	color: purple;
+	font-family: 'Pattaya', sans-serif;
+	letter-spacing: 4px;
+}
+
+.border {
+	color: rgba(240, 240, 200, 0.6);
+	text-align: center;
+}
+
+p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+						/* box-header */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#header {
+	height: 46px;
+	background-color: #000;
+	top: 0px;
+	position: fixed;
+	width: 100%;
+}
+
+#nav li {
+	display: inline-block;
+	position: relative;
+}
+
+#nav .subnav a {
+	color: #000;
+}
+
+#nav .subnav {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+}
+
+#nav > li > a {
+	color: #fff;
+}
+
+#nav li a {
+	text-decoration: none;
+	line-height: 46px;
+	padding: 0 24px;
+}
+
+#nav > li:hover > a {
+	color: #000;
+	background-color: #ccc;
+	display: inline-block;
+}
+
+#slider {
+	min-height: 500px;
+	background-color: #333;
+}
