@@ -1,1 +1,3 @@
-# kedo2k5
+@ No copyright
+
+By Kedo205
